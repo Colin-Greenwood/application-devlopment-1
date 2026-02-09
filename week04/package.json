@@ -1,0 +1,12 @@
+{
+  "name": "week04",
+  "version": "1.0.0",
+  "main": "order.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
+

@@ -1,0 +1,9 @@
+The mistake was in function applyDiscount. Because of one line that subtracted a variable named discount, Node was throwing ReferenceError because this variable has never been declared or given a value. That is just not allowed in JavaScript.
+
+
+
+Logging helped me to understand the “story” of the program as it ran. I could see what values lay beneath the calculation, the total and the result of the rule for applying the discount. I didn't have to guess about the execution of the program and know where in it was and what it was doing. ## Why is testing better than manually re-running the script? Testing is better because through it, there are extensive tests for various cases very fast. Sometimes, when checking by hand, people might miss some steps. The automated tests allow programmers to make changes to code without immediately worrying if they have broken anything.
+
+
+
+I'd keep the invalid input check-negative price or quantity. Bad inputs are the quickest route for a simple program to misbehave, and catching them early helps block confusing results and makes the program more robust.
