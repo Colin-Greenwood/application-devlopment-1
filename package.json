@@ -1,0 +1,24 @@
+{
+  "name": "application-devlopment-1",
+  "version": "1.0.0",
+  "description": "this poject ehen very smooth and I didn't have to rely on ai the part i had trouble with was update the files relized i was put reademe in week03 by accident\r what package.json does\r .it tells Node and npm. What your project is called, what files start the ap and what sripts you can run\r what process.env is\r . Setting given to your progam for out side code\r what npm start runs\r runs whatever is dfidned in package.jason and sets Node_ENV to development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colin-Greenwood/application-devlopment-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Colin-Greenwood/application-devlopment-1/issues"
+  },
+  "homepage": "https://github.com/Colin-Greenwood/application-devlopment-1#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
